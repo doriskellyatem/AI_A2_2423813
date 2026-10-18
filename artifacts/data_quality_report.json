@@ -1,0 +1,36 @@
+{
+  "verification_code": "AI-A2-3813",
+  "seed": 3813,
+  "validation": {
+    "rows_total": 243,
+    "rows_unique": 240,
+    "duplicate_rows": 3,
+    "missing_by_column": {
+      "soil_moisture_pct": 12,
+      "fertilizer_kg": 12
+    },
+    "missing_percent_by_column": {
+      "soil_moisture_pct": 4.94,
+      "fertilizer_kg": 4.94
+    },
+    "range_check": "passed",
+    "leakage_check": "passed: no target-derived column is an input feature",
+    "high_risk_share": 0.5021
+  },
+  "cleaning": {
+    "rows_before": 243,
+    "rows_after": 240,
+    "duplicates_removed": 3,
+    "missing_by_column_after_dedup": {
+      "soil_moisture_pct": 12,
+      "fertilizer_kg": 12
+    },
+    "missing_handling": "median imputation (numeric) and most-frequent (binary), fitted on training rows only inside the Pipeline"
+  },
+  "generation": {
+    "base_rows": 240,
+    "total_rows_with_duplicates": 243,
+    "missing_per_column_injected": 12,
+    "duplicate_rows_appended": 3
+  }
+}

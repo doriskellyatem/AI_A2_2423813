@@ -1,0 +1,160 @@
+{
+  "verification_code": "AI-A2-3813",
+  "seed": 3813,
+  "silhouette_by_k": {
+    "2": 0.1339,
+    "3": 0.1291,
+    "4": 0.1229,
+    "5": 0.135,
+    "6": 0.1383
+  },
+  "selected_k": 6,
+  "selection_reason": "K=6 has the highest silhouette score (0.138) among K=2..6. The score is low, so the groups are only weak tendencies, not sharp natural clusters (expected for independently drawn synthetic features).",
+  "clustering_uses_targets": false,
+  "profiles": [
+    {
+      "cluster": 0,
+      "farms_in_training": 31,
+      "profile": "Cluster 0: warmer, lower soil moisture, light fertilizer use, smaller fields.",
+      "feature_means": {
+        "rainfall_mm": 938.704,
+        "avg_temp_c": 22.952,
+        "soil_moisture_pct": 33.451,
+        "fertilizer_kg": 90.77,
+        "field_size_ha": 1.174
+      },
+      "share_cooperative_support": 0.484,
+      "share_season_A": 0.645,
+      "z_vs_overall": {
+        "rainfall_mm": -0.309,
+        "avg_temp_c": 0.902,
+        "soil_moisture_pct": -0.94,
+        "fertilizer_kg": -0.504,
+        "field_size_ha": -0.876
+      },
+      "after_the_fact_mean_yield_tons": 8.564,
+      "after_the_fact_high_risk_share": 0.226,
+      "operational_meaning": "Routine monitoring: most farms here are not high production risk."
+    },
+    {
+      "cluster": 1,
+      "farms_in_training": 28,
+      "profile": "Cluster 1: drier, higher soil moisture, heavy fertilizer use, larger fields.",
+      "feature_means": {
+        "rainfall_mm": 811.31,
+        "avg_temp_c": 20.232,
+        "soil_moisture_pct": 61.769,
+        "fertilizer_kg": 190.236,
+        "field_size_ha": 2.897
+      },
+      "share_cooperative_support": 0.571,
+      "share_season_A": 0.571,
+      "z_vs_overall": {
+        "rainfall_mm": -0.861,
+        "avg_temp_c": 0.241,
+        "soil_moisture_pct": 0.685,
+        "fertilizer_kg": 0.885,
+        "field_size_ha": 0.704
+      },
+      "after_the_fact_mean_yield_tons": 14.176,
+      "after_the_fact_high_risk_share": 0.643,
+      "operational_meaning": "Prioritise for field-officer visits: most farms here are high production risk."
+    },
+    {
+      "cluster": 2,
+      "farms_in_training": 26,
+      "profile": "Cluster 2: drier, cooler, lower soil moisture, mainly season B.",
+      "feature_means": {
+        "rainfall_mm": 891.116,
+        "avg_temp_c": 14.816,
+        "soil_moisture_pct": 32.278,
+        "fertilizer_kg": 145.891,
+        "field_size_ha": 1.92
+      },
+      "share_cooperative_support": 0.615,
+      "share_season_A": 0.308,
+      "z_vs_overall": {
+        "rainfall_mm": -0.515,
+        "avg_temp_c": -1.073,
+        "soil_moisture_pct": -1.007,
+        "fertilizer_kg": 0.265,
+        "field_size_ha": -0.192
+      },
+      "after_the_fact_mean_yield_tons": 10.662,
+      "after_the_fact_high_risk_share": 0.538,
+      "operational_meaning": "Mixed group: review farms individually."
+    },
+    {
+      "cluster": 3,
+      "farms_in_training": 37,
+      "profile": "Cluster 3: higher soil moisture, light fertilizer use, mostly unsupported.",
+      "feature_means": {
+        "rainfall_mm": 952.447,
+        "avg_temp_c": 19.936,
+        "soil_moisture_pct": 61.092,
+        "fertilizer_kg": 44.238,
+        "field_size_ha": 2.409
+      },
+      "share_cooperative_support": 0.324,
+      "share_season_A": 0.378,
+      "z_vs_overall": {
+        "rainfall_mm": -0.249,
+        "avg_temp_c": 0.17,
+        "soil_moisture_pct": 0.646,
+        "fertilizer_kg": -1.154,
+        "field_size_ha": 0.257
+      },
+      "after_the_fact_mean_yield_tons": 11.03,
+      "after_the_fact_high_risk_share": 0.649,
+      "operational_meaning": "Prioritise for field-officer visits: most farms here are high production risk."
+    },
+    {
+      "cluster": 4,
+      "farms_in_training": 31,
+      "profile": "Cluster 4: higher soil moisture, heavy fertilizer use, smaller fields.",
+      "feature_means": {
+        "rainfall_mm": 1121.048,
+        "avg_temp_c": 17.507,
+        "soil_moisture_pct": 59.595,
+        "fertilizer_kg": 180.687,
+        "field_size_ha": 0.974
+      },
+      "share_cooperative_support": 0.516,
+      "share_season_A": 0.645,
+      "z_vs_overall": {
+        "rainfall_mm": 0.482,
+        "avg_temp_c": -0.42,
+        "soil_moisture_pct": 0.56,
+        "fertilizer_kg": 0.751,
+        "field_size_ha": -1.059
+      },
+      "after_the_fact_mean_yield_tons": 12.628,
+      "after_the_fact_high_risk_share": 0.0,
+      "operational_meaning": "Routine monitoring: most farms here are not high production risk."
+    },
+    {
+      "cluster": 5,
+      "farms_in_training": 39,
+      "profile": "Cluster 5: wetter, larger fields.",
+      "feature_means": {
+        "rainfall_mm": 1254.574,
+        "avg_temp_c": 19.229,
+        "soil_moisture_pct": 47.406,
+        "fertilizer_kg": 134.195,
+        "field_size_ha": 3.129
+      },
+      "share_cooperative_support": 0.538,
+      "share_season_A": 0.41,
+      "z_vs_overall": {
+        "rainfall_mm": 1.061,
+        "avg_temp_c": -0.002,
+        "soil_moisture_pct": -0.139,
+        "fertilizer_kg": 0.102,
+        "field_size_ha": 0.917
+      },
+      "after_the_fact_mean_yield_tons": 14.328,
+      "after_the_fact_high_risk_share": 0.846,
+      "operational_meaning": "Prioritise for field-officer visits: most farms here are high production risk."
+    }
+  ]
+}

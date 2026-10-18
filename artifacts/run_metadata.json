@@ -1,0 +1,18 @@
+{
+  "verification_code": "AI-A2-3813",
+  "seed": 3813,
+  "student_id": "ug2423813@ines.ac.rw",
+  "registration_digits": "2423813",
+  "dataset_file": "AI_A2_2423813.csv",
+  "dataset_sha256": "6518539e497fb80e780b4f4845b4068db7465a6c75dfc7c31c7ca0327f1e7eb0",
+  "rows_total": 243,
+  "rows_after_cleaning": 240,
+  "train_rows": 192,
+  "test_rows": 48,
+  "random_state_everywhere": 3813,
+  "synthetic_data": true,
+  "python": "3.14.6",
+  "scikit_learn": "1.9.1",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6"
+}
