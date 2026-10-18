@@ -6,8 +6,8 @@
 | Registration number | 24/23813 |
 | Institutional username | ug2423813@ines.ac.rw |
 | Verification code | AI-A2-3813 |
-| Repository URL | To be added after creating your own GitHub repository |
-| Final commit hash | To be added after the final commit |
+| Repository URL | https://github.com/doriskellyatem/AI_A2_2423813 |
+| Final commit hash | 3e250e7042997865521e875ee8b81fbc543d0200 |
 | Python version tested | 3.14.6 |
 | Operating system tested | macOS, Apple Silicon |
 
